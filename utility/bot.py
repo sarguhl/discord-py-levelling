@@ -72,7 +72,7 @@ class Bot(commands.Bot):
 
     async def setup_hook(self):
 
-        extensions = ["cogs.leveling.level", "cogs.service_commands"]
+        extensions = ["cogs.leveling.level", "cogs.commands"]
 
         for cog in extensions:
             try:
